@@ -1,12 +1,20 @@
 Here are the issues I've had with GitHub so far for easy troubleshooting.
 
-# Set user name for the current repository
+# Set and check current user name on the repository
+```
+git config user.name
+git config user.email
+```
 ```
 git config user.name "Your Name"
 git config user.email "youremail@example.com"
 ```
 
-# To set globally, add the --global flag
+# Set and check current user name to the global
+```
+git config --global user.name
+git config --global user.email
+```
 ```
 git config --global user.name "Your Name"
 git config --global user.email "youremail@example.com"
