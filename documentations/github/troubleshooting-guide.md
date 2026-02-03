@@ -1,5 +1,16 @@
 Here are the issues I've had with GitHub so far for easy troubleshooting.
 
+# Set user name for the current repository
+```
+git config user.name "Your Name"
+git config user.email "youremail@example.com"
+```
+
+# To set globally, add the --global flag
+```
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+```
 **1. Cloning a Repository:**
    - Clone a repository from a remote URL to your local machine.
    ```
